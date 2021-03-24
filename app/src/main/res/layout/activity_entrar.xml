@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.EntrarActivity">
+
+    <TextView
+        android:id="@+id/tvEntrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="45sp"
+        android:text="@string/entrar"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tilNome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:hint="@string/nome"
+        app:helperText="@string/putNome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvEntrar"
+        app:layout_constraintBottom_toTopOf="@+id/btEntrar">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tietNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:inputType="textPersonName"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btEntrar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/entrar"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/tilNome"
+        app:layout_constraintStart_toStartOf="@id/tilNome"
+        app:layout_constraintTop_toBottomOf="@id/tilNome"
+        android:layout_marginTop="67sp"
+        android:background="@drawable/custom_button"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

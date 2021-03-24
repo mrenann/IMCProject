@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">IMC-Project</string>
+    <string name="imc_calculo">Cálculo de IMC</string>
+    <string name="peso">Peso</string>
+    <string name="altura">Altura</string>
+    <string name="putPeso">Coloque o seu Peso</string>
+    <string name="putAltura">Coloque sua Altura</string>
+    <string name="calcular">Calcular</string>
+    <string name="kg">Kg</string>
+    <string name="metros">m</string>
+    <string name="introIMC">Aplicativo para calcular o seu IMC, coloque o seu Peso e sua Altura e depois clique em Calcular</string>
+    <string name="nome">Nome</string>
+    <string name="putNome">Coloque o seu Nome</string>
+    <string name="entrar">Entrar</string>
+</resources>
